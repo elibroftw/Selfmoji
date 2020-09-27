@@ -9,9 +9,20 @@ With selfmoji you can have your own custom emojis in Discord.
 ## Installing
 
 1. Clone repository
-2. `pipenv sync`
-3. Place your discord token in a file named `TOKEN` or into an environment variable named `DISCORD_TOKEN`
-4. Run the appropriate run script
+2. `pip install -r requirements.txt`
+3. Place your discord token into config.json (see Sample Config)
+4. Run the appropriate run script (Windows: run.bat)
+5. See (this)[https://medium.com/@elijahlopezz/python-and-background-tasks-4f70b4a2efd8] to run script on startup
+
+## Sample Config
+```json
+{
+    "size": 64,
+    "edit": true,
+    "token": "",
+    "emojis": {}
+}
+```
 
 ## Sending emojis
 
